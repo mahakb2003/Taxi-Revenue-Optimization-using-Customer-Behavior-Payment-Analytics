@@ -1,75 +1,83 @@
-# NYC-Car-Bookings-Analysis
- NYC Car Bookings Analysis: A/B Testing &amp; Time Series to Maximize Taxi Revenue
+📌 Project Title
 
- 📌 Project Title:
-NYC Car Bookings Analysis: A/B Testing & Time Series to Maximize Taxi Revenue
+Taxi Revenue Optimization using Customer Behavior & Payment Analytics
 
-💼 Problem Statement
-To maximize the revenue streams for taxi drivers, our research focuses on determining whether payment methods (Card vs. Cash) have a statistically significant impact on fare prices.
+💼 Business Problem
 
-To run an A/B test examining the relationship between fare amount and payment type using Python. We applied hypothesis testing and descriptive statistics to discover actionable insights that can help taxi drivers increase earnings.
-Specifically, we ask:
+Maximizing revenue is a key challenge for taxi service providers. This project analyzes how customer behavior, payment methods, and trip patterns influence revenue generation.
 
-“Is there a significant difference in the total fare between riders who pay with credit cards and those who pay with cash?”
+The objective is to identify data-driven strategies that can help improve earnings by understanding:
 
-🧪 Techniques Used
-✅ Exploratory Data Analysis (EDA)
+Payment behavior (Card vs Cash)
 
-✅ Feature Engineering (Trip duration, Hour extraction)
-✅ Date Range Identification (2020–2021)
-✅ A/B Testing (t-test between Card & Cash)
-✅ Hypothesis Testing with QQ Plots
-✅ Data Visualization (Pie chart, Stacked bar, Histplot)
-✅ Linear Regression (fare_amount ~ duration)
-✅ Time Series Analysis (Daily Fare Trends)
-✅ Hourly Fare Patterns by Payment Type
+Peak revenue periods
 
+Key drivers of fare amount
 
-📊 Visual Insights
-🔹 Linear Regression
-We modeled the relationship between trip duration and fare amount.
+🎯 Objective
 
-Fare = m × Duration + c
+To evaluate whether payment methods significantly impact revenue and to uncover actionable insights that can improve customer engagement, pricing strategies, and operational efficiency.
 
-Observed that longer trips generally increase fare, but variation exists.
+🧪 Approach & Methodology
 
-🔹 Hypothesis Testing (A/B)
-1.Used t-test to compare Card vs Cash fare distributions.
-2.Visualized with QQ plots and stacked bar graphs.
+Exploratory Data Analysis (EDA) to understand trip and fare patterns
 
-Result: Statistically significant difference found in average fare between payment types.
+Feature Engineering (trip duration, hourly segmentation)
 
+A/B Testing (t-test) to compare revenue across payment types
 
-🔹 Time Series (2020–2021)
-Created daily average fare trend plots.
-Conducted hourly fare analysis:
-Found morning and evening peaks.
-Card payments tend to yield higher average fares at almost every hour.
+Hypothesis Testing & QQ Plots for statistical validation
 
+Regression Analysis to model fare drivers
 
-📅 Data Timeframe
-The dataset spans from January 2020 to early 2021.
-Features like tpep_pickup_datetime were cleaned and used to create hourly, daily, and monthly trends.
+Time Series Analysis to identify revenue trends
 
-├── nyc_taxi_analysis.ipynb       # Main ana lysis notebook
-├── yellow_tripdata_2020-01.csv   # Sample raw data
-├── outputs/
-│   ├── regression_plot.png
-│   ├── time_series_fare.png
-│   └── payment_type_bar.png
-🔍 Key Findings
-1.Fare amounts vary significantly based on payment method — card payments often correlate with higher fares.
-2.Trip duration is positively correlated with fare, but the relationship is not strictly linear (other factors like traffic, surge pricing may play a role).
-3.Revenue-maximizing times for taxi drivers appear to be 8–10 AM and 6–8 PM.
-4.Daily and hourly fare trends are useful for driver scheduling and surge prediction.
+Data Visualization to communicate insights effectively
 
-🛠️ Tools Used
-Python (pandas, matplotlib, seaborn, scipy, statsmodels)
+📊 Key KPIs Analyzed
+
+Average Fare per Trip
+
+Revenue by Payment Type
+
+Hourly & Daily Revenue Trends
+
+Trip Duration vs Fare Relationship
+
+Peak Hour Revenue Contribution
+
+🔍 Key Insights
+
+Card payments generate higher average revenue per trip, indicating an opportunity to promote digital payments for increased earnings
+
+Peak revenue hours identified (8–10 AM, 6–8 PM), suggesting optimal time windows for maximizing driver utilization
+
+Trip duration is a strong predictor of fare, but external factors such as demand and traffic also influence pricing
+
+Statistically significant difference in fare distribution across payment types, validated through hypothesis testing
+
+Consistent revenue patterns observed through time series analysis, enabling better demand forecasting.
+
+💡 Business Recommendations
+
+Promote card payments through incentives (cashback, rewards) to increase high-value transactions
+
+Encourage drivers to operate during peak demand hours to maximize earnings
+
+Implement dynamic pricing strategies based on time-of-day demand patterns
+
+Design targeted strategies for high-duration and high-value trips
+
+Use data insights to support pricing optimization and demand forecasting
+
+🛠️ Tech Stack
+
+Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Statsmodels)
+
 Jupyter Notebook
 
-📌 Conclusion
+📈 Business Impact
 
-This project demonstrates a data-driven approach to supporting NYC taxi drivers in maximizing their earnings.
-Using real-world data, we applied statistical rigor and visual storytelling to uncover actionable business insights — like which payment type and time of day are most profitable.
+This project demonstrates how data analytics and statistical techniques can be used to drive revenue optimization, customer behavior insights, and strategic decision-making, aligning closely with real-world business analytics use cases.
 
-
+Contact: mahak.bisht2003@gmail.com
