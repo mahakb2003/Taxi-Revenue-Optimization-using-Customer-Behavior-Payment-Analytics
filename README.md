@@ -1,83 +1,95 @@
-📌 Project Title
+# 🚕 Taxi Revenue Optimization using Customer Behavior & Payment Analytics  
 
-Taxi Revenue Optimization using Customer Behavior & Payment Analytics
+## 📌 Overview  
+Maximizing revenue is a critical challenge for taxi service providers. This project analyzes customer behavior, payment preferences, and trip patterns to uncover **data-driven strategies for revenue optimization**.  
 
-💼 Business Problem
+By leveraging statistical analysis and machine learning techniques, the project identifies key factors influencing fare generation and provides actionable insights to improve business performance.
 
-Maximizing revenue is a key challenge for taxi service providers. This project analyzes how customer behavior, payment methods, and trip patterns influence revenue generation.
+---
 
-The objective is to identify data-driven strategies that can help improve earnings by understanding:
+## 💼 Business Problem  
+Taxi platforms often struggle to identify:  
+- Which factors drive higher revenue  
+- How customer payment behavior impacts earnings  
+- When demand peaks occur  
 
-Payment behavior (Card vs Cash)
+This project addresses these challenges by analyzing the relationship between **payment methods, trip characteristics, and revenue patterns**.
 
-Peak revenue periods
+---
 
-Key drivers of fare amount
+## 🎯 Objective  
+- Evaluate whether **payment methods (Card vs Cash)** significantly impact revenue  
+- Identify **key drivers of fare amount**  
+- Analyze **time-based demand patterns**  
+- Generate **actionable business insights** for revenue growth  
 
-🎯 Objective
+---
 
-To evaluate whether payment methods significantly impact revenue and to uncover actionable insights that can improve customer engagement, pricing strategies, and operational efficiency.
+## 🧪 Methodology  
 
-🧪 Approach & Methodology
+### 🔍 Exploratory Data Analysis (EDA)  
+- Analyzed trip patterns, fare distribution, and customer behavior  
 
-Exploratory Data Analysis (EDA) to understand trip and fare patterns
+### ⚙️ Feature Engineering  
+- Created features such as:  
+  - Trip duration  
+  - Hourly time segments  
 
-Feature Engineering (trip duration, hourly segmentation)
+### 📊 Statistical Analysis  
+- Conducted **A/B Testing (t-test)** to compare revenue across payment types  
+- Performed **Hypothesis Testing & QQ Plots** for validation  
 
-A/B Testing (t-test) to compare revenue across payment types
+### 📈 Modeling & Trend Analysis  
+- Built **Regression Models** to identify fare drivers  
+- Applied **Time Series Analysis** to detect revenue trends  
 
-Hypothesis Testing & QQ Plots for statistical validation
+### 📉 Data Visualization  
+- Designed visualizations to clearly communicate insights  
 
-Regression Analysis to model fare drivers
+---
 
-Time Series Analysis to identify revenue trends
+## 📊 Key KPIs  
+- Average Fare per Trip  
+- Revenue by Payment Type  
+- Hourly & Daily Revenue Trends  
+- Trip Duration vs Fare Relationship  
+- Peak Hour Revenue Contribution  
 
-Data Visualization to communicate insights effectively
+---
 
-📊 Key KPIs Analyzed
+## 🔍 Key Insights  
+- 💳 **Card payments generate higher average revenue per trip**, indicating an opportunity to promote digital transactions  
+- ⏰ **Peak hours identified: 8–10 AM & 6–8 PM**, ideal for maximizing driver utilization  
+- 📏 **Trip duration strongly influences fare**, but demand and traffic also play a role  
+- 📊 **Statistically significant difference** observed in fare distribution across payment types  
+- 📉 **Consistent revenue patterns** enable better demand forecasting  
 
-Average Fare per Trip
+---
 
-Revenue by Payment Type
+## 💡 Business Recommendations  
+- Incentivize **card payments** (cashback, rewards) to boost high-value transactions  
+- Encourage drivers to operate during **peak demand hours**  
+- Implement **dynamic pricing strategies** based on time-of-day demand  
+- Target **high-duration, high-value trips** for revenue optimization  
+- Use insights for **forecasting and pricing strategy improvements**  
 
-Hourly & Daily Revenue Trends
+---
 
-Trip Duration vs Fare Relationship
+## 🛠️ Tech Stack  
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Statsmodels)  
+- **Jupyter Notebook**  
 
-Peak Hour Revenue Contribution
+---
 
-🔍 Key Insights
+## 📈 Business Impact  
+This project demonstrates how **data analytics, statistical testing, and predictive modeling** can be leveraged to:  
+- Optimize revenue streams  
+- Understand customer behavior  
+- Support strategic business decisions  
 
-Card payments generate higher average revenue per trip, indicating an opportunity to promote digital payments for increased earnings
+It closely aligns with real-world use cases in **product analytics, pricing strategy, and business intelligence**.
 
-Peak revenue hours identified (8–10 AM, 6–8 PM), suggesting optimal time windows for maximizing driver utilization
+---
 
-Trip duration is a strong predictor of fare, but external factors such as demand and traffic also influence pricing
-
-Statistically significant difference in fare distribution across payment types, validated through hypothesis testing
-
-Consistent revenue patterns observed through time series analysis, enabling better demand forecasting.
-
-💡 Business Recommendations
-
-Promote card payments through incentives (cashback, rewards) to increase high-value transactions
-
-Encourage drivers to operate during peak demand hours to maximize earnings
-
-Implement dynamic pricing strategies based on time-of-day demand patterns
-
-Design targeted strategies for high-duration and high-value trips
-
-Use data insights to support pricing optimization and demand forecasting
-
-🛠️ Tech Stack
-
-Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy, Statsmodels)
-
-Jupyter Notebook
-
-📈 Business Impact
-
-This project demonstrates how data analytics and statistical techniques can be used to drive revenue optimization, customer behavior insights, and strategic decision-making, aligning closely with real-world business analytics use cases.
-
-Contact: mahak.bisht2003@gmail.com
+## 📬 Contact  
+📧 mahak.bisht2003@gmail.com  
